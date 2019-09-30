@@ -1,0 +1,4 @@
+{
+    "mongoURI"  : "URL_MONGODB",
+    "jwtSecret" : "thisIsABigSecretDontRevealItPlease"
+}
