@@ -1,6 +1,6 @@
-# Project Title
+# NodeJS API Boilerplate
 
-nodejs Expressjs MongoDb api boilerplate
+nodejs Expressjs MongoDB API boilerplate
 
 ## Getting Started
 
@@ -8,40 +8,59 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+In order to use the API you will need:
 
+- NodeJS v10  minimum, link [here](https://nodejs.org/en/)
 ```
-Give examples
+  https://nodejs.org/en/
 ```
+
+
+- NPM comes with Nodejs, so worries if you see npm command lines, tips keep the [npm website](https://www.npmjs.com/) :) in your bookmark
+```
+  https://www.npmjs.com/
+```
+
+- A DB on MongoDB, link [here](https://cloud.mongodb.com/user#/atlas/register/accountProfile)
+```
+  https://cloud.mongodb.com/user#/atlas/register/accountProfile
+```
+
+
+- Nodemon, documentation [here](https://www.npmjs.com/package/nodemon)
+```
+  npm install -g nodemon
+```
+- A client like : [Postman](https://www.getpostman.com/) or [Insomnia](https://insomnia.rest/) 
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+In your terminal
 
 ```
-Give the example
+  git clone https://github.com/SufranjNaweed/nodejs-api-boilerplate.git
 ```
 
-And repeat
+Then
 
 ```
-until finished
+ $> cd nodejs-api-boilerplate
+ $> npm install
+ $> npm server
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+And you are ready to go :p
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Test aren't ready yet
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+not ready
 
 ```
-Give an example
+not ready
 ```
 
 ### And coding style tests
@@ -54,13 +73,11 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Heroku platform
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [ExpressJS](https://expressjs.com/fr/) - The web framework used
 
 ## Contributing
 
@@ -72,7 +89,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Naweed SUFRANJ** - *Initial work* - [SufranjNaweed](https://github.com/SufranjNaweed)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
