@@ -45,8 +45,18 @@ In your terminal
   git clone https://github.com/SufranjNaweed/nodejs-api-boilerplate.git
 ```
 
-Then
+Then 
+```
+  $> cd nodejs-api-boilerplate
+```
 
+Create a .env file and add the following variable : 
+```
+  DB_URL="URL_MONGODB"
+  JWT_SECRET="YOUR_CUSTOM_SECRET"
+```
+
+Then back to your terminal
 ```
  $> cd nodejs-api-boilerplate
  $> npm install

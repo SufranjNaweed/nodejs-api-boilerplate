@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
-const config = require('config');
-const gravatar = require('gravatar');
-const db = config.get('mongoURI');
+const db = process.env.DB_URL;
 
 const connectDB = async () => {
     try {
@@ -11,7 +9,7 @@ const connectDB = async () => {
             useUnifiedTopology: true,
             useFindAndModify: false
         });
-        console.log('MongoDB Connected');
+        await console.log('MongoDB Connected');
     }
     catch(err){
         console.log(err);
